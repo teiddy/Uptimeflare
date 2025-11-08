@@ -14,12 +14,12 @@ const workerConfig = {
   monitors: [
     {
       id: 'google_monitor',
-      name: '醉猫电影站',
+      name: 'My film Monitor',
       method: 'GET',
-      target: 'https://tg414300.com',
-        tooltip: '醉猫电影站',
+      target: 'https://vwo50.club',
+        tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-  statusPageLink: 'https://www.tg414300.com',
+  statusPageLink: 'https://tg414300.com',
     },
 
  {
@@ -42,20 +42,6 @@ const workerConfig = {
   statusPageLink: 'https://example.com',
     },
   ],
-  notification: {
-    // [Optional] apprise API server URL
-    // if not specified, no notification will be sent
-    appriseApiServer: "https://apprise.example.com/notify",
-    // [Optional] recipient URL for apprise, refer to https://github.com/caronc/apprise
-    // if not specified, no notification will be sent
-    recipientUrl: "tgram://bottoken/ChatID",
-    // [Optional] timezone used in notification messages, default to "Etc/GMT"
-    timeZone: "Asia/Shanghai",
-    // [Optional] grace period in minutes before sending a notification
-    // notification will be sent only if the monitor is down for N continuous checks after the initial failure
-    // if not specified, notification will be sent immediately
-    gracePeriod: 5,
-  },
   callbacks: {
     onStatusChange: async (
       env: any,
