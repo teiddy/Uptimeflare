@@ -1,6 +1,6 @@
 const pageConfig = {
   // Title for your status page
-  title: "hxd Status Page",
+  title: "hxd 网站检测",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://vwo50.club', label: 'Blog' },
