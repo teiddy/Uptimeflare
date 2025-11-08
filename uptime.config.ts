@@ -16,7 +16,7 @@ const workerConfig = {
       id: 'google_monitor',
       name: '醉猫电影站',
       method: 'GET',
-      target: 'https://www.tg414300.com',
+      target: 'https://tg414300.com',
         tooltip: '醉猫电影站',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   statusPageLink: 'https://www.tg414300.com',
