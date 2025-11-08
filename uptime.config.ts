@@ -14,12 +14,12 @@ const workerConfig = {
   monitors: [
     {
       id: 'google_monitor',
-      name: 'My Blog Monitor',
+      name: '醉猫电影站',
       method: 'GET',
-      target: 'https://vwo50.club',
-        tooltip: 'This is a tooltip for this monitor',
+      target: 'https://www.tg414300.com',
+        tooltip: '醉猫电影站',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-  statusPageLink: 'https://example.com',
+  statusPageLink: 'https://www.tg414300.com',
     },
 
  {
